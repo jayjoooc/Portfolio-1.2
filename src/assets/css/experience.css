@@ -1,0 +1,18 @@
+#experience img{
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    border: .3rem solid var(--primaryBlack);
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: border-radius .4s ease;
+}
+
+#experience img:hover {
+    border-radius: 0;
+}
+
+#experience h4{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
