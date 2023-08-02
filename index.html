@@ -6,12 +6,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>jayjo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
@@ -54,7 +55,7 @@
         <section id="portfolio" class="even">
             <h3 class="porfolioTitle">Portfolio</h3>
             <hr/>
-            <!-- <div>
+            <div>
                 <button>
                     <img src="assets/real imgs/annie-spratt-8WrBRQhyk-4-unsplash.jpg" />
                     <h4>Fleet Managment System</h4>
@@ -67,7 +68,7 @@
                     <img src="assets/real imgs/praveen-kumar-mathivanan-NZYJiMCNpmw-unsplash.jpg" />
                     <h4>Fridge Binge Games</h4>
                 </button>
-            </div> -->
+            </div>
         </section>
         <section id="skillset" class="">
             <h3>Skillset</h3>
@@ -111,9 +112,10 @@
             <h3>Experience</h3>
             <hr />
             <div>
-                <!-- <a>
+                <a>
                     <img src="assets/real imgs/brett-jordan-aZVuQWEtX5Y-unsplashsmalll.jpg"/>
                     <h4>Nintendo @Enter The Studio</h4>
+                    <button data-modal-id="myModal">Open</button>
                 </a>
                 <a>
                     <img src="assets/real imgs/brett-jordan-aZVuQWEtX5Y-unsplashsmalll.jpg"/>
@@ -130,7 +132,7 @@
                 <a>
                     <img src="assets/real imgs/brett-jordan-aZVuQWEtX5Y-unsplashsmalll.jpg" />
                     <h4>Facebook LLC</h4>
-                </a> -->
+                </a>
             </div>
         </section>
         <section id="contact" class="">
@@ -162,7 +164,17 @@
     <footer>
         <small>Developed and Designed by Joel de Jesus Lopez &copy;2022. All rights reserved </small>
     </footer>
+    <div id="myModal" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          no mames
+          
+          <button class="eins-modal-close-button">OK</button>
+        </div>
+      </div>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/fixed.js"></script>
+    <script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
 </html>
